@@ -20,7 +20,6 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Created by jt on 11/21/21.
  */
-@ActiveProfiles("local")
 @DataJpaTest
 @ComponentScan(basePackages = {"guru.springframework.jdbc.dao"})
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
